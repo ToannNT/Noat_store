@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="../img/logo.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/detailorder.css">
+    <title>Detail order</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="../index.html"><img src="../img/logoOnly.jpg" alt></a>
+                <i> NOAT Store </i>
+            </div>
+            <div class="nav-mid">
+                <ul>
+                    <li><a href="../index.html">Trang chủ</a></li>
+                    <li style="padding: 10px;" class="nav-mid__list">
+                        <a href="../page/product.html">Sản phẩm
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="nav-mid_sub">
+                            <li><a href="../page/product.html">Tất cả</a>
+                            <li><a href="../page/product.html">Áo khoác</a>
+                            <li><a href="../page/product.html">Áo thun</a>
+                            <li><a href="../page/product.html">Áo sơ mi</a>
+                            <li><a href="../page/product.html">Mắt kính</a>
+                            <li><a href="../page/product.html">Phụ kiện</a>
+                        </ul>
+                    </li>
+                    <li><a href="../page/service.html">Dịch vụ</a></li>
+                    <li><a href="../page/aboutUS.html">Về chúng tôi</a></li>
+                    <li><a href="../page/News.html">Tin tức</a></li>
+                    <li><a href="../page/contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li class="nav-right__list">
+                        <a href="../page/User.html">
+                            <i class="fa-regular fa-circle-user"></i>
+                        </a>
+                        <ul class="nav-right_sub">
+                            <li><a href="../page/user.html">Đăng nhập</a>
+                            <li><a href="../page/SignUp.html">Đăng ký</a>
+                            <li><a href="../page/myaccount.html">Thông tin</a>
+                            <li><a href="../page/myorder.html">Đơn hàng</a>
+                        </ul>
+                    </li>
+                    <li>
+                        <!-- Countt giò hàng  -->
+                        <a onclick="showcart()">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <sup><span id="countsp">0</span></sup>
+                        </a>
+                    </li>
+                    <li>
+                        <span class="nav-right-search">
+                            <button style="border: none; cursor: pointer; font-size: 20px; background-color: white;"
+                                type="submit">
+                                <i class="fa-solid  fa-magnifying-glass"></i> </button>
+                            <input style="margin-left: 8px; padding: 8px; border-radius: 25px;" type="text"
+                                placeholder="Tên sản phẩm">
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- Thêm cái thứ nhất  -->
+        <div id="showcart">
+            <table>
+                <tr>
+                    <th>Hình</th>
+                    <th>Tên</th>
+                    <th>Số lượng</th>
+                    <th>Giá</th>
+                </tr>
+                <!-- thêm tbodyyyyyyyyyyyyyyyyyy -->
+                <tbody id="mycart">
+
+                </tbody>
+            </table>
+            <br>
+            <!-- btn thanh toán  -->
+            <a href="./viewcart.html">Xem giỏ hàng&rAarr;</a>
+            <button id="xoatatca" onclick="deleteAll()">Delete All</button>
+        </div>
+        <div class="wrapper-content-product">
+            <!-- tráiiiiiiiiiiiiiiiiiiiiii  -->
+            <div class="content-product-left">
+                <div class="wrapper_left">
+                    <h3>Thông tin chi tiết đơn hàng</h3>
+                    <p> <strong>Mã đơn hàng:</strong> NOAT300420241</p>
+                    <p><strong>Ngày đăt hàng:</strong> 30-04-2024 </p>
+                    <p> <strong>Phương thức thanh toán:</strong> <br> Thanh toán khi nhận hàng</p>
+                    <p> <strong>Thông tin giao hàng:</strong> <br> Nguyễn Thanh Tùng, 0799526333, Thân Cửu Nghĩa, Châu
+                        Thành, Tiền
+                        Giang, Việt
+                        Nam</p>
+
+                </div>
+            </div>
+            <!-- phảiiiiiiiiiiiiiiiiiiii-->
+            <div class="content-product-right">
+                <div class="wrapper_right">
+
+
+
+                    <!-- hai -->
+                    <div class="item order">
+                        <p>Đặt hàng</p>
+                        <hr>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Mã đơn hàng</th>
+                                    <th>Tên</th>
+                                    <th>Hình</th>
+                                    <th>Giá</th>
+                                    <th>Số lượng</th>
+                                    <th>Trạng thái</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>NOAT30042024</td>
+                                    <td>Nón bocket đen</td>
+                                    <td><img src="../img/nonbucketden.webp" alt=""></td>
+                                    <td>50.000đ</td>
+                                    <td>1</td>
+                                    <td>Chưa xử lí</td>
+                                </tr>
+                                <tr>
+                                    <td>NOAT30042024</td>
+                                    <td>Áo Hoodie đen</td>
+                                    <td><img src="../img/hoodie-black.webp" alt=""></td>
+                                    <td>299.000đ</td>
+                                    <td>1</td>
+                                    <td>Chưa xử lí</td>
+                                </tr>
+                                <!-- <tr>
+                                    <td><img src="../img/tshirt-green.jpg" alt></td>
+                                    <td>T shirt black</td>
+                                    <td>23-05-2023</td>
+                                    <td>Đãng thanh toán</td>
+                                    <td>100$</td>
+                                    <td style="text-align: end;"><input type="submit" value="Xem"></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="../img/Tshirt.png" alt></td>
+                                    <td>T shirt black</td>
+                                    <td>23-05-2023</td>
+                                    <td>Đãng thanh toán</td>
+                                    <td>100$</td>
+                                    <td style="text-align: end;"><input type="submit" value="Xem"></td>
+                                </tr> -->
+
+                            </tbody>
+
+                        </table>
+                    </div>
+
+                    <!-- 666666666666 -->
+                    <div class="item account" style="display: none;">
+                        <p>Account detail</p>
+                        <hr>
+                        <form action>
+                            <!-- 1 -->
+                            <div class="information_submit submit_account">
+                                <label for>Tên*:</label> <br>
+                                <input type="text" placeholder="Tên">
+                            </div>
+                            <!-- 2 -->
+                            <div class="information_submit  submit_account">
+                                <label for>Họ*:</label> <br>
+                                <input type="text" placeholder="họ">
+                            </div>
+                            <!-- 3 -->
+                            <div class="information_submit  submit_account">
+                                <label for>Email*:</label> <br>
+                                <input type="text" placeholder="họ và tên">
+                            </div>
+                            <!-- 4 -->
+                            <div class="information_submit  submit_account">
+                                <label for>Địa chỉ*:</label> <br>
+                                <input type="text" placeholder="họ và tên">
+                            </div>
+                            <!-- 5 -->
+                            <div class="information_submit  submit_account">
+                                <label for>Sộ điện thoại*:</label> <br>
+                                <input type="text" placeholder="họ và tên">
+                            </div>
+                            <br>
+                            <div class="input_submit_account">
+                                <input type="submit" value="Sữa thay đổi">
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- tư -->
+                    <div class="item payment" style="display: none;">
+                        <form action>
+                            <!-- 1 -->
+                            <div class="information_submit">
+                                <label for>Thứ t4*:</label> <br>
+                                <input type="text" placeholder="họ và tên">
+                            </div>
+                            <!-- 2 -->
+                            <div class="information_submit">
+                                <label for>Email*:</label> <br>
+                                <input type="text" placeholder="họ và tên">
+                            </div>
+                            <!-- 3 -->
+                            <div class="information_submit">
+                                <label for>Số điện thoại*:</label> <br>
+                                <input type="text" placeholder="họ và tên">
+                            </div>
+                            <!-- 4 -->
+                            <div class="information_submit">
+                                <label for>Địa chỉ*:</label> <br>
+                                <input type="text" placeholder="họ và tên">
+                            </div>
+                            <input type="submit" value="Lưu">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- footerrrrrrrrrrrrrrrrrrrrr  -->
+    <footer>
+        <div class="wrapper-footer1">
+            <div class="content-footer">
+                <!-- 1 -->
+                <div class="detail-content-footer footer1">
+                    <h3>Về chúng tôi</h3>
+                    <img style="width: 20%;" src="../img/logoOnly.jpg" alt="">
+                    <p style="margin-bottom: 18px;">
+                    <h4>CÔNG TY TNHH NOAT STORE VIETNAM</h4>
+                    <p style="margin: 10px 0px;">Mã Số Thuế: 0106486365</p>
+                    <p style="margin: 10px 0px;">
+                        Văn phòng: tầng 5 Tòa nhà IMC, 62 Trần Quang Khải - Phường Tân Định - Quận 1 - TP Hồ Chí Minh.
+                    </p>
+                    </p>
+
+                </div>
+                <!-- 2 -->
+                <div class="detail-content-footer">
+                    <h3>CÔNG TY</h3>
+                    <p>Giới thiệu về ROUTINE</p>
+                    <p>Tuyển dụng</p>
+                    <p>Tin thời trang</p>
+                    <p>Hợp tác nhượng quyền</p>
+                    <p>Liên hệ</p>
+                </div>
+                <!-- 3 -->
+                <div class="detail-content-footer">
+                    <h3>CHÍNH SÁCH KHÁCH HÀNG</h3>
+                    <p>Chính sách khách hàng thân thiết</p>
+                    <p>Chính sách đổi trả</p>
+                    <p>Chính sách bảo hành</p>
+                    <p>Chính sách bảo mật</p>
+                    <p>Câu hỏi thường gặp</p>
+                </div>
+                <!-- 4 -->
+                <div class="detail-content-footer">
+                    <h3>Liên hệ</h3>
+                    <p>Phone: (+84) 799 622 333</p>
+                    <p>Fax: (+84) 555 0100</p>
+                    <p>F15 tầng 1 AEON Mall Tân Phú, 30 Bờ Bao Tân Thắng, Phường Sơn Kỳ, TP Hồ Chí Minh</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="wrapper-footer2">
+            <div class="logo-footer">
+                <img src="../img/./logoOnly.jpg">
+                <span>NOAT Store</span>
+            </div>
+            <div class="license">
+                <p>2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/jscart.js"></script>
+</body>
+
+</html>

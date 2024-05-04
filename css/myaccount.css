@@ -1,0 +1,289 @@
+
+/* wrapper-content-produectt */
+main {
+  margin-top: 80px;
+  /* padding-top: 100px; */
+  width: 100%;
+  /* min-height: 1200px; */
+  background-color: rgb(238, 238, 238);
+}
+
+.wrapper-content-product {
+  width: 80%;
+  /* min-height: 1100px; */
+  margin: 0 auto;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* lefttttttttttttttttttttttttt */
+.content-product-left {
+  /* background-color: blanchedalmond; */
+  width: 35%;
+  display: flex;
+  justify-content: end;
+  /* text-align: center; */
+  /* margin: 0 auto; */
+}
+
+/* rightttttttttttttttttttttttt */
+.content-product-right {
+  width: 70%;
+  /* background-color: rgb(50, 122, 64); */
+}
+
+/* trai */
+.wrapper_left {
+  /* box-shadow: 0px 0px 5px 0px rgba(41, 41, 57, 0.7); */
+  margin-right: 15px;
+  border-radius: 5px;
+  /* background-color: rgb(255, 255, 255); */
+  width: 80%;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.wrapper_left ul {
+  width: 70%;
+}
+.wrapper_left_b{
+margin-bottom: 0px;
+}
+
+.wrapper_left ul li {
+  background: rgb(109, 108, 108);
+  margin-bottom: 15px;
+  border-radius: 3px;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  /* font-weight: 500; */
+  overflow: hidden;
+  /* width: 100%; */
+  font-size: 12px;
+  letter-spacing: 2px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+}
+
+.wrapper_left ul li i {
+  color: white;
+  margin-top: 5px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.wrapper_left ul li p {
+  color: #ffffff;
+  font-weight: 400;
+  position: relative;
+}
+
+/* phảiiiiii  */
+.wrapper_right {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  /* padding: 20px;
+    padding-left: 50px;
+    border-radius: 5px;
+    background-color: aliceblue; */
+}
+
+.item > p {
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.item > form {
+  margin-top: 15px;
+}
+
+.information_submit {
+  margin-bottom: 0px;
+}
+
+.information_submi > label {
+  font-weight: 500;
+}
+
+.information_submit input {
+  height: 50px;
+  width: 48%;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border: 1px solid rgb(210, 210, 210);
+}
+
+.item {
+  margin-bottom: 30px;
+  width: 90%;
+  padding: 20px;
+  /* padding-left: 50px; */
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.item > form > input {
+  height: 40px;
+  width: 14%;
+  font-weight: bold;
+  border-radius: 4px;
+  /* margin-top: 5px; */
+  /* margin-bottom: 15px; */
+  /* padding-left: 10px; */
+  color: rgb(0, 0, 0);
+  /* text-align: center; */
+  background-color: rgb(213, 213, 213);
+  border: none;
+  /* border: 1px solid rgb(0, 0, 0); */
+}
+
+/* hover button  */
+
+.wrapper_left ul li:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #090909;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  transition: all 0.4s ease;
+}
+
+/* click vào nè  */
+.wrapper_left ul li.active p {
+  color: #fff;
+}
+.wrapper_left ul li.active:before {
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+/* orderrrrrrrrrrrrrrrrrrrrrrrrrrr */
+
+.order {
+  width: 100%;
+}
+
+.order > p {
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.order table {
+  margin-top: 10px;
+  /* border-top: 1px solid black; */
+  width: 100%;
+  border-radius: 50px;
+  /* border-collapse: collapse; */
+  border-collapse: collapse;
+}
+
+.order table tr {
+  /* border: 1px solid black; */
+}
+
+.order table th {
+  background-color: #000000;
+  /* width: 55px; */
+  padding: 10px;
+  /* border-radius: 10px; */
+  /* font-size: 13px; */
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+
+  color: rgb(255, 255, 255);
+}
+
+.order table td {
+  padding: 20px;
+
+  /* border: 1px solid black; */
+  border-bottom: 1px #dbdada solid;
+  text-align: center;
+}
+
+.order table tr td input {
+  border: none;
+  color: white;
+  border-radius: 3px;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  background-color: rgb(4, 4, 4);
+}
+
+.order table tr td img {
+  width: 50px;
+  /* margin: 10px; */
+  border-radius: 3px;
+}
+
+.order table tr td input:hover {
+  background-color: #5c5b5b;
+  transition: all 0.2s ease;
+}
+
+/* 66666666666666  */
+.account form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.submit_account {
+  width: 49%;
+}
+
+.submit_account input {
+  width: 100%;
+}
+
+.input_submit_account {
+  width: 100%;
+}
+
+.input_submit_account > input {
+  height: 40px;
+  width: 14%;
+  font-weight: bold;
+  border-radius: 4px;
+  /* margin-top: 5px; */
+  /* margin-bottom: 15px; */
+  /* padding-left: 10px; */
+  color: rgb(0, 0, 0);
+  /* text-align: center; */
+  background-color: rgb(213, 213, 213);
+  border: none;
+}
+
+.input_submit_account > input:hover {
+  color: white;
+
+  background-color: #000000;
+  transition: all 0.4s ease;
+}
+
+
+
+
+
+
+
+
+

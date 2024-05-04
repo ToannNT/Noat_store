@@ -1,0 +1,60 @@
+
+
+
+/* Popular Posttttttttttttttttttttttttttt */
+.Popular-Post {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 1100px;
+    margin-top: 60px;
+    /* background-color: rgb(129, 92, 37); */
+}
+
+
+
+
+
+.view-Popular-Post {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 520px;
+    /* background-color: antiquewhite; */
+
+}
+
+.content-Popular-Post {
+    width: 30%;
+    min-height: 520px;
+    margin-bottom: 30px;
+}
+
+.content-Popular-img {
+    width: 100%;
+    /* height: 250px; */
+}
+
+.content-Popular-Post img {
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.content-Popular-Post a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-Popular-Post a:hover {
+    color: rgb(174, 68, 68);
+}
+
+.content-Popular-Post h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content-Popular-Post p {
+    margin-bottom: 15px;
+}
+

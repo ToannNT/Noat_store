@@ -1,0 +1,268 @@
+
+
+/* .bannerrrrrrrrrrrrrrrrrrrrrrrr */
+
+.banner {
+    margin-top: 100px;
+    width: 100%;
+    min-height: 200px;
+    background-color: #dedddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.title-product-main span {
+    font-weight: bold;
+}
+
+
+
+/* wrapper-content-productt */
+main {
+    width: 100%;
+}
+
+.wrapper-content-product {
+    width: 80%;
+    /* min-height: 1800px; */
+    margin: 0 auto;
+    /* background-color: blanchedalmond; */
+
+}
+
+
+
+
+
+/* rightttttttttttttttttttttttt */
+.content-product-right {
+    width: 100%;
+
+}
+
+
+
+/* box sản phẩm */
+.boxtrai{
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.row {
+    /* width: 100%; */
+    min-height: 250px;
+}
+.mb{
+    width: 100%;
+}
+
+.row h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+
+.row img {
+    /* margin: 20px; */
+    /* width: 100%; */
+    /* height: 50%; */
+    /* object-fit: cover; */
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.row img:hover {
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+.menu ul {
+    padding: 0px 10px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 15px;
+}
+
+.menu ul li a {
+    color: #CCC;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color: white;
+    font-size: 0.8vw;
+}
+
+
+/* giỏ hàng */
+
+ table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    /* background-color: #efefef; */
+    padding: 10px;
+}
+
+th,
+td {
+    border: 1px #dbdada solid;
+    text-align: center;
+}
+
+td div {
+    /* width: calc(100% - 20px); */
+    padding: 0px 10px;
+}
+
+th div {
+    width: calc(100% - 10px);
+    padding: 0px 5px;
+    font-size: 1.5rem;
+}
+
+td img {
+    width: 50px;
+    margin: 10px;
+}
+
+
+
+/* thong tin nhận hàng */
+
+.thongtinnhanhang tr td {
+    text-align: left;
+    padding: 10px;
+}
+
+.thongtinnhanhang input {
+    width: 100%;
+    border: 1px #CCC solid;
+    padding: 5px;
+    border-radius: 5px;
+}
+.mb_checkout{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.dongy {
+    /* margin-top: 20px; */
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    background-color: black;
+    /* background-image: linear-gradient(rgb(216, 84, 70), rgb(209, 60, 37)); */
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.dongy:hover {
+    color: white;
+    background-color: #e8363c;
+    /* background-image: linear-gradient(rgb(192, 188, 187), rgb(164, 160, 159)); */
+
+}
+
+.cart_totals1{
+    width: 10%;
+}
+
+.cart_totals2{
+    width: 40%;
+}
+.cart_totals2 {
+    border: 1px solid rgb(210, 202, 202);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.cart_totals2 table{
+}
+
+
+
+.cart_totals2 th{
+    text-align: center;
+    font-size: 20px;
+}
+
+.cart_totals2 th{
+    /* border-bottom: none; */
+
+    /* border-top: none; */
+    border-left: none;
+    border-right: none;
+}
+
+.cart_totals2 td{
+    /* font-size: 20px; */
+    border-left: none;
+    border-right: none;
+
+    padding: 10px;
+    
+}
+
+.cart_totals2 tr{
+    margin: 100px;
+}
+
+.cart_totals2 span{
+    color: black;
+    font-weight: bold;
+}
+
+/* CHECKOUT  */
+.checkout a button{
+    color: white;
+    width: 100%;
+    border: none;
+    background-color: black;
+    height: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+
+.checkout a:hover button{
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background-color: #e8363c;
+}
+

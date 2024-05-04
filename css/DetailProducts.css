@@ -1,0 +1,259 @@
+
+
+/* .bannerrrrrrrrrrrrrrrrrrrrrrrr */
+.flow_web {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: rebeccapurple; */
+    padding-top: 30px;
+    /* height: 140px; */
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+.span1 {
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+
+.span2 {
+    /* opacity: 0.6; */
+    font-weight: bold;
+}
+
+
+/* wrapper-content-productt */
+main {
+    width: 100%;
+    min-height: 1100px;
+    /* background-color: blueviolet; */
+}
+
+.wrapper-content-product {
+    width: 80%;
+    /* min-height: 1100px; */
+    margin: 0 auto;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.content-product-left {
+    width: 20%;
+    /* height: 1200px; */
+    /* background-color: rgb(214, 148, 67); */
+}
+
+
+/* lefttttttttttttttttt */
+.detail-product-left {
+    width: 100%;
+    height: 550px;
+    /* background-color: rgb(103, 98, 98); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Top-rated-products {
+    width: 300px;
+    height: 90px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-product-left span {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.img-Top-rated {
+    width: 90px;
+    height: 90px;
+    /* background-color: rgb(222, 95, 95); */
+}
+
+.content-Top-rated {
+    width: 190px;
+    height: 90px;
+    /* background-color: rgb(222, 95, 95); */
+}
+
+.img-Top-rated img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-Top-rated a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-Top-rated a:hover {
+    color: rgb(179, 35, 35);
+}
+
+.content-Top-rated p {
+    font-size: 15px;
+}
+
+.content-Top-rated img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90px;
+}
+
+.more-Top-rated {
+    width: 300px;
+    height: 540px;
+    background-color: black;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-more-Top {
+    width: 200px;
+    min-height: 450px;
+    /* background-color: rgb(115, 106, 106); */
+}
+
+.content-more-Top h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.content-more-Top p {
+    color: white;
+    margin-top: 25px;
+}
+
+/* rightttttttttttttttttttttttt */
+.content-product-right {
+    width: 75%;
+    /* min-height: 1100px; */
+    /* background-color: rgb(50, 122, 64); */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.wrapper-detail-product-top {
+    width: 100%;
+    min-height: 600px;
+    /* background-color: rgb(86, 54, 16); */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.img_product_left_big {
+    width: 40%;
+    min-height: 440px;
+}
+
+.img_product_left_big>img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+
+.img_product_left_small {
+    width: 100%;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_product_left_small img {
+    object-fit: cover;
+    height: 100px;
+    width: 30%;
+}
+
+.infomation_product_right_top {
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.infomation_product_right_top img {
+    width: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.infomation_product_right_top span {
+    font-weight: bold;
+    font-size: 25px;
+    /* margin-bottom: 0px; */
+}
+
+.infomation_product_right_top sup {
+    font-weight: bold;
+    opacity: 0.5;
+    /* margin-bottom: 100px; */
+}
+
+.p_122 {
+    margin-top: 50px;
+}
+
+.infomation_product_right_top p {
+    margin-bottom: 20px;
+}
+
+.btn-product_right_top {
+    width: 100%;
+    border-top: 1px solid rgb(178, 175, 175);
+    border-bottom: 1px solid rgb(178, 175, 175);
+    padding-bottom: 20px;
+
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-product_right_top input {
+    font-size: 20px;
+    padding: 15px;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.btn-product_right_top button {
+    width: 65%;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: rgb(236, 35, 35);
+}
+
+.btn-product_right_top button:hover {
+    background-color: rgb(202, 38, 38);
+}
+
+
+.wrapper-detail-product-bot h1 {
+    font-size: 25px;
+}
+
+.wrapper-detail-product-bot p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    opacity: 0.6;
+
+
+}
+
+
+
+

@@ -1,0 +1,270 @@
+
+.banner {
+  margin-top: 100px;
+  width: 100%;
+  min-height: 200px;
+  background-color: #dedddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* wrapper-content-productt */
+main {
+  width: 100%;
+  min-height: 1200px;
+  /* background-color: blueviolet; */
+}
+
+.wrapper-content-product {
+  width: 80%;
+  min-height: 1100px;
+  margin: 0 auto;
+}
+
+/* rightttttttttttttttttttttttt */
+.content-product-right {
+  width: 100%;
+  min-height: 1000px;
+
+}
+
+
+/* giỏ hàng */
+.mr > h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.mb {
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid rgb(230, 230, 230);
+}
+
+.mb table {
+  width: 100%;
+  border-radius: 50px;
+  border-collapse: collapse;
+  /* border-bottom: 3px solid rgb(104, 103, 103); */
+}
+
+.mb th {
+  background-color: #000000;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.mb th,td {
+  border-bottom: 1px #dbdada solid;
+  text-align: center;
+
+}
+.mycart__name_product{
+  text-align: start;
+}
+
+.mb td img {
+  width: 50px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+/* thong tin nhận hàng */
+
+.thongtinnhanhang tr td {
+  text-align: left;
+  padding: 10px;
+}
+
+.thongtinnhanhang input {
+  width: 100%;
+  border: 1px #ccc solid;
+  padding: 5px;
+  border-radius: 5px;
+}
+.mb_checkout {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  /* justify-content: space-around; */
+}
+.dongy {
+  /* margin-top: 20px; */
+  font-size: 18px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  background-color: black;
+  /* background-image: linear-gradient(rgb(216, 84, 70), rgb(209, 60, 37)); */
+  padding: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.dongy:hover {
+  color: white;
+  background-color: #e8363c;
+  /* background-image: linear-gradient(rgb(192, 188, 187), rgb(164, 160, 159)); */
+}
+
+.cart_totals1 {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  width: 55%;
+  height: 150px;
+  padding: 20px;
+}
+
+.note-prodcut {
+  height: 100%;
+}
+.note-prodcut label {
+  font-size: 14px;
+  font-weight: bold;
+}
+.note-prodcut textarea {
+  width: 100%;
+  height: 70%;
+  padding: 15px;
+  font-size: 17px;
+}
+
+.cart_totals2 {
+  /* background-color: #ececec; */
+  width: 40%;
+  border: 2px solid rgb(234, 234, 234);
+  padding: 25px;
+  border-radius: 10px;
+} */
+
+.checkout {
+  /* background-color: #ccc; */
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.checkout > input[type="text"] {
+  width: 68%;
+  height: 50px;
+  border: 0.5px solid rgb(222, 215, 215);
+  font-weight: 500;
+  padding: 20px;
+  /* color: b; */
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #efefef;
+  outline: none;
+  margin-top: 10px;
+}
+
+.checkout > input[type="text"]:hover {
+  /* color: white; */
+  background-color: #e3e2e2;
+}
+
+.checkout > input[type="submit"] {
+  width: 30%;
+  height: 50px;
+  border: 0.5px solid rgb(222, 215, 215);
+  /* font-weight: bold; */
+  /* padding: 20px; */
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #0b0b0b;
+}
+
+.checkout > input[type="submit"]:hover {
+  background-color: rgb(75, 74, 74);
+}
+
+.checkout > p {
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.checkout > p > span {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  /* height: 5px; */
+  /* background-color: rgb(220, 216, 216); */
+}
+.checkout > p > a {
+  text-decoration: underline;
+  color: black;
+}
+
+.number_one {
+  padding-top: 10px;
+  border-top: 1px solid rgb(216, 219, 216);
+}
+.subtotal {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.subtotal>span{
+  font-weight: bold;
+}
+
+.total_detail {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.total_main {
+  font-weight: bold;
+  color: black;
+}
+
+.button_one {
+  width: 65%;
+
+}
+.button_one > a >input {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+  background-color: rgb(34, 32, 32);
+  border: 1px solid rgb(204, 198, 198);
+}
+
+.btn_submit{
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+}
+
+
+
+.button_one>a>input:hover {
+  background-color: #4d4b4b;
+}
+
+
+.button_two{
+  width: 34%;
+
+}
+
+ .button_two>a>input {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+  background-color: rgb(34, 32, 32);
+  border: 1px solid rgb(204, 198, 198);
+}
+

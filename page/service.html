@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="../img/logo.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="../css/Service.css">
+    <title>Service</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="../index.html"><img src="../img/logoOnly.jpg" alt></a>
+                <i> NOAT Store </i>
+            </div>
+            <div class="nav-mid">
+                <ul>
+                    <li><a href="../index.html">Trang chủ</a></li>
+                    <li style="padding: 10px;" class="nav-mid__list">
+                        <a href="../page/product.html">Sản phẩm
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="nav-mid_sub">
+                            <li><a href="../page/product.html">Tất cả</a>
+                            <li><a href="../page/product.html">Áo khoác</a>
+                            <li><a href="../page/product.html">Áo thun</a>
+                            <li><a href="../page/product.html">Áo sơ mi</a>
+                            <li><a href="../page/product.html">Mắt kính</a>
+                            <li><a href="../page/product.html">Phụ kiện</a>
+                        </ul>
+                    </li>
+                    <li><a href="../page/service.html">Dịch vụ</a></li>
+                    <li><a href="../page/aboutUS.html">Về chúng tôi</a></li>
+                    <li><a href="../page/News.html">Tin tức</a></li>
+                    <li><a href="../page/contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li class="nav-right__list">
+                        <a href="../page/User.html">
+                            <i class="fa-regular fa-circle-user"></i>
+                        </a>
+                        <ul class="nav-right_sub">
+                            <li><a href="../page/user.html">Đăng nhập</a>
+                            <li><a href="../page/SignUp.html">Đăng ký</a>
+                            <li><a href="../page/myaccount.html">Thông tin</a>
+                            <li><a href="../page/myorder.html">Đơn hàng</a>
+                        </ul>
+                    </li>
+                    <li>
+                        <!-- Countt giò hàng  -->
+                        <a onclick="showcart()">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <sup><span id="countsp">0</span></sup>
+                        </a>
+                    </li>
+                    <li>
+                        <span class="nav-right-search">
+                            <button style="border: none; cursor: pointer; font-size: 20px; background-color: white;"
+                                type="submit">
+                                <i class="fa-solid  fa-magnifying-glass"></i> </button>
+                            <input style="margin-left: 8px; padding: 8px; border-radius: 25px;" type="text"
+                                placeholder="Tên sản phẩm">
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Thêm cái thứ nhất  -->
+        <div id="showcart">
+            <table>
+                <tr>
+                    <th>Hình</th>
+                    <th>Tên</th>
+                    <th>Số lượng</th>
+                    <th>Giá</th>
+                </tr>
+                <!-- thêm tbodyyyyyyyyyyyyyyyyyy -->
+                <tbody id="mycart">
+
+                </tbody>
+            </table>
+            <br>
+            <!-- btn thanh toán  -->
+            <a href="./viewcart.html">Xem giỏ hàng&rAarr;</a>
+            <button id="xoatatca" onclick="deleteAll()">Delete All</button>
+        </div>
+        <section class="section2">
+            <div class="space-st2"></div>
+            <div class="content-st2">
+                <div class="detail-st2-left">
+                    <img src="../img/services-image-1.webp" alt>
+                </div>
+                <div class="detail-st2-right">
+                    <span>OUR MISSION</span>
+                    <h1>Chúng tôi là cửa hàng thời trang <br> Luôn là xu hướng hướng<br>Phục vụ bạn mọi lúc</h1>
+                    <p>Bộ sưu tập của chúng tôi dành cho phụ nữ, đàn ông thể hiện bản chất của phong cách Địa
+                        Thành phố trẻ trung với sự kết hợp hiện đại thông qua việc chú trọng vào chất liệu và chi tiết.
+                    </p>
+                    <input type="button" value="Xem Thêm">
+                </div>
+            </div>
+        </section>
+
+        <section class="section3">
+            <div class="space-st3"></div>
+            <div class="content-st3">
+                <div class="detail-st3-left">
+                    <img src="../img/services-image-2_optimized.webp" alt>
+                </div>
+                <div class="detail-st3-right">
+                    <span>OUR MISSION</span>
+                    <h1>CHÚNG TA CÙNG NHAU TRỖI DẬY</h1>
+                    <p>Một công ty có thể sản xuất ra những sản phẩm - nhưng việc thay đổi môi trường làm việc cần sự hỗ
+                        trợ từ cộng đồng. Chúng tôi đã đặt nhiệm vụ của mình là đảm bảo mỗi thành viên trong đội ngũ
+                        toàn cầu của chúng tôi cảm thấy được nhìn thấy, truyền cảm hứng và truyền động lực. Sự nghiệp
+                        tại Inditex của bạn không chỉ là một công việc - nó là nguồn cảm hứng và cơ hội không ngừng.</p>
+                    <!-- <input type="button" value="MORE DETAILS"> -->
+                </div>
+            </div>
+        </section>
+
+        <!--setionnnnnnnnnnnnnnnn 4 -->
+        <section class="Newsletter-updates">
+            <div class="wrapper-Newsletter">
+                <div class="content-Newsletter">
+                    <div class="content-Newsletter row1">
+                        <h1>Cập nhật tin tức</h1>
+                    </div>
+                    <div class="content-Newsletter row2">
+                        <p>Đăng ký để nhận email về sản phẩm mới và ưu đãi đặc biệt</p>
+                    </div>
+                    <div class="content-Newsletter row3">
+                        <div class="btn-Newsletter">
+                            <input class="btn-Newsletter1" type="email" placeholder="Địa chỉ email">
+                            <input class="btn-Newsletter2" type="button" value="Đăng ký">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- footerrrrrrrrrrrrrrrrrrrrr  -->
+    <footer>
+        <div class="wrapper-footer1">
+            <div class="content-footer">
+                <!-- 1 -->
+                <div class="detail-content-footer footer1">
+                    <h3>Về chúng tôi</h3>
+                    <img style="width: 20%;" src="../img/logoOnly.jpg" alt="">
+                    <p style="margin-bottom: 18px;">
+                    <h4>CÔNG TY TNHH NOAT STORE VIETNAM</h4>
+                    <p style="margin: 10px 0px;">Mã Số Thuế: 0106486365</p>
+                    <p style="margin: 10px 0px;">
+                        Văn phòng: tầng 5 Tòa nhà IMC, 62 Trần Quang Khải - Phường Tân Định - Quận 1 - TP Hồ Chí Minh.
+                    </p>
+                    </p>
+
+                </div>
+                <!-- 2 -->
+                <div class="detail-content-footer">
+                    <h3>CÔNG TY</h3>
+                    <p>Giới thiệu về ROUTINE</p>
+                    <p>Tuyển dụng</p>
+                    <p>Tin thời trang</p>
+                    <p>Hợp tác nhượng quyền</p>
+                    <p>Liên hệ</p>
+                </div>
+                <!-- 3 -->
+                <div class="detail-content-footer">
+                    <h3>CHÍNH SÁCH KHÁCH HÀNG</h3>
+                    <p>Chính sách khách hàng thân thiết</p>
+                    <p>Chính sách đổi trả</p>
+                    <p>Chính sách bảo hành</p>
+                    <p>Chính sách bảo mật</p>
+                    <p>Câu hỏi thường gặp</p>
+                </div>
+                <!-- 4 -->
+                <div class="detail-content-footer">
+                    <h3>Liên hệ</h3>
+                    <p>Phone: (+84) 799 622 333</p>
+                    <p>Fax: (+84) 555 0100</p>
+                    <p>F15 tầng 1 AEON Mall Tân Phú, 30 Bờ Bao Tân Thắng, Phường Sơn Kỳ, TP Hồ Chí Minh</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="wrapper-footer2">
+            <div class="logo-footer">
+                <img src="../img/./logoOnly.jpg">
+                <span>NOAT Store</span>
+            </div>
+            <div class="license">
+                <p>2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/jscart.js"></script>
+</body>
+
+</html>

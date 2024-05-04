@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="../img/logo.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/DetailProducts.css">
+    <title>Products Detail 1</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="../index.html"><img src="../img/logoOnly.jpg" alt></a>
+                <i> NOAT Store </i>
+            </div>
+            <div class="nav-mid">
+                <ul>
+                    <li><a href="../index.html">Trang chủ</a></li>
+                    <li style="padding: 10px;" class="nav-mid__list">
+                        <a href="../page/product.html">Sản phẩm
+                            <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        <ul class="nav-mid_sub">
+                            <li><a href="../page/product.html">Tất cả</a>
+                            <li><a href="../page/product.html">Áo khoác</a>
+                            <li><a href="../page/product.html">Áo thun</a>
+                            <li><a href="../page/product.html">Áo sơ mi</a>
+                            <li><a href="../page/product.html">Mắt kính</a>
+                            <li><a href="../page/product.html">Phụ kiện</a>
+                        </ul>
+                    </li>
+                    <li><a href="../page/service.html">Dịch vụ</a></li>
+                    <li><a href="../page/aboutUS.html">Về chúng tôi</a></li>
+                    <li><a href="../page/News.html">Tin tức</a></li>
+                    <li><a href="../page/contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li class="nav-right__list">
+                        <a href="../page/User.html">
+                            <i class="fa-regular fa-circle-user"></i>
+                        </a>
+                        <ul class="nav-right_sub">
+                            <li><a href="../page/user.html">Đăng nhập</a>
+                            <li><a href="../page/SignUp.html">Đăng ký</a>
+                            <li><a href="../page/myaccount.html">Thông tin</a>
+                            <li><a href="../page/myorder.html">Đơn hàng</a>
+                        </ul>
+                    </li>
+                    <li>
+                        <!-- Countt giò hàng  -->
+                        <a onclick="showcart()">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <sup><span id="countsp">0</span></sup>
+                        </a>
+                    </li>
+                    <li>
+                        <span class="nav-right-search">
+                            <button style="border: none; cursor: pointer; font-size: 20px; background-color: white;"
+                                type="submit">
+                                <i class="fa-solid  fa-magnifying-glass"></i> </button>
+                            <input style="margin-left: 8px; padding: 8px; border-radius: 25px;" type="text"
+                                placeholder="Tên sản phẩm">
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- bannerrrrrrrrrrrrrrrrrrrrrrrrrrrrr -->
+    <section class="flow_web">
+        <span class="span1">Trang chủ / Chi tiết sản phẩm /</span> <span class="span2">Nón lá</span>
+    </section>
+
+    <main>
+        <div class="wrapper-content-product">
+            <!-- left  -->
+            <div class="content-product-left">
+                <div class="detail-product-left">
+                    <span>Sản phẩm hot trong tuần</span>
+                    <!-- 1 -->
+                    <div class="Top-rated-products">
+                        <div class="img-Top-rated">
+                            <a href><img src="../img/hat-round.jpg" alt></a>
+                        </div>
+                        <div class="content-Top-rated">
+                            <a href="#">
+                                <p>Nón bucket đen</p>
+                            </a>
+                            <img src="../img/Star.png">
+                            <p>50.000đ</p>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="Top-rated-products">
+                        <div class="img-Top-rated">
+                            <a href><img src="../img/sweater-sky.jpg" alt></a>
+                        </div>
+                        <div class="content-Top-rated">
+                            <a href="#">
+                                <p>Áo len xanh</p>
+                            </a>
+                            <img src="../img/Star.png">
+                            <p>199.000đ </p>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="Top-rated-products">
+                        <div class="img-Top-rated">
+                            <a href><img src="../img/tote-bag.jpg" alt></a>
+                        </div>
+                        <div class="content-Top-rated">
+                            <a href="#">
+                                <p>Quartz Watch</p>
+                            </a>
+                            <img src="../img/Star.png">
+                            <p>59.000đ</p>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="Top-rated-products">
+                        <div class="img-Top-rated">
+                            <a href><img src="../img/sweater-blu.jpg" alt></a>
+                        </div>
+                        <div class="content-Top-rated">
+                            <a href="#">
+                                <p>Áo len xanh đậm</p>
+                            </a>
+                            <img src="../img/Star.png">
+                            <p>150.000đ </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- right  -->
+            <div class="content-product-right">
+                <!-- top  -->
+                <div class="wrapper-detail-product-top">
+                    <!-- 1 -->
+                    <div class="img_product_left_big">
+                        <img src="../img/nonbucketden.webp" id="anh">
+                        <div class="img_product_left_small">
+
+                            <img onmouseover="one_over()" onmouseout="one_out()" src="../img/nonbucketden.webp" alt>
+                            <img onmouseover="one_over2()" onmouseout="one_out()" src="../img/nonbucketden2.jpg" alt>
+                            <img onmouseover="one_over3()" onmouseout="one_out()" src="../img/nonbucketden3.jpg" alt>
+
+                        </div>
+                    </div>
+                    <div class="infomation_product_right_top">
+                        <h1>Mũ bucket trơn vành cụp Capman Club, nón bo tròn unisex nam nữ CM65</h1>
+                        <img src="../img/Star.png" alt> <br>
+                        <span>50.000đ</span>
+                        <p class="p_122">THÔNG TIN SẢN PHẨM : <br> <br>
+
+                            - Chất liệu vải : kakI <br><br>
+
+                            - Không gây kích ứng da đầu, không ra màu. <br> <br>
+
+                            - Size: freesize, vòng đầu 52-58cm thích hợp cho cả nam nữ.</p>
+
+                        <div class="btn-product_right_top">
+                            <input type="number" min="1" max="1000" value="1">
+                            <button>Thêm giỏ hàng</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- bottom  -->
+                <div class="wrapper-detail-product-bot">
+                    <h1>Mô tả chi tiết</h1>
+                    <p>LLƯU Ý: Khi khách yêu gặp bất kì vấn đề gì về sản phẩm, đừng vội đánh giá shop mà hãy NHẮN TIN
+                        trước cho CAPMAN để shop hỗ trợ bạn nhé, shop rất biết ơn nếu bạn làm điều đó ạ</p>
+                    -------------------------------------
+                    <img style="width: 100%;"
+                        src="https://down-vn.img.susercontent.com/file/vn-11134208-7r98o-lt1wdyr6zwd564" alt="">
+                    <img style="width: 100%;"
+                        src="https://down-vn.img.susercontent.com/file/vn-11134208-7r98o-lt1wdyr72pi148" alt="">
+                    <img style="width: 100%;"
+                        src="https://down-vn.img.susercontent.com/file/vn-11134202-23030-lz4jsv7n8uov28" alt="">
+                    <img style="width: 100%;"
+                        src="https://down-vn.img.susercontent.com/file/9db386089c04fb7df050eb57f3b5cbba" alt="">
+                </div>
+            </div>
+
+        </div>
+        <section class="new-arrivals">
+            <div class="title-new-arrivals">
+                <div class="title-arv-left">
+                    <!-- <p>Check out latest products</p> -->
+                    <span>Sản phẩm liên quan</span>
+                </div>
+
+            </div>
+            <div style="justify-content: start;" class="view-product-arrivals">
+                <!-- prodcut 1  -->
+                <div style="margin-right: 20px;" class="product-arrivals">
+                    <div class="img-product">
+                        <a href="./page/Cart.html"><img src="../img/hat-round.jpg" alt with></a>
+                    </div>
+                    <div class="img-review">
+                        <img src="../img/Star.png" alt width="100px">
+                    </div>
+                    <div class="title-prodcuct">
+                        <a href="#">Nón bocket đen</a>
+                    </div>
+                    <div class="rice-product">
+                        <b class="discount-rice">99.00đ</b>
+                    </div>
+                    <button class="btn-prodcuct">Thêm giỏ hàng</button>
+                </div>
+                <!-- prodcut 2  -->
+                <div class="product-arrivals">
+                    <div class="img-product">
+                        <a href="../page/Cart.html"><img src="../img/nonsocxanh.webp" alt with></a>
+                    </div>
+                    <div class="img-review">
+                        <img src="../img/Star.png" alt width="100px">
+                    </div>
+                    <div class="title-prodcuct">
+                        <a href="#">Mũ lưỡi trai nam kẻ sọc</a>
+                    </div>
+                    <div class="rice-product">
+                        <b class="discount-rice">196.000đ</b>
+                    </div>
+                    <button class="btn-prodcuct">Thêm giỏ hàng</button>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- footerrrrrrrrrrrrrrrrrrrrr  -->
+    <footer>
+        <div class="wrapper-footer1">
+            <div class="content-footer">
+                <!-- 1 -->
+                <div class="detail-content-footer footer1">
+                    <h3>Về chúng tôi</h3>
+                    <img style="width: 20%;" src="../img/logoOnly.jpg" alt="">
+                    <p style="margin-bottom: 18px;">
+                    <h4>CÔNG TY TNHH NOAT STORE VIETNAM</h4>
+                    <p style="margin: 10px 0px;">Mã Số Thuế: 0106486365</p>
+                    <p style="margin: 10px 0px;">
+                        Văn phòng: tầng 5 Tòa nhà IMC, 62 Trần Quang Khải - Phường Tân Định - Quận 1 - TP Hồ Chí Minh.
+                    </p>
+                    </p>
+
+                </div>
+                <!-- 2 -->
+                <div class="detail-content-footer">
+                    <h3>CÔNG TY</h3>
+                    <p>Giới thiệu về ROUTINE</p>
+                    <p>Tuyển dụng</p>
+                    <p>Tin thời trang</p>
+                    <p>Hợp tác nhượng quyền</p>
+                    <p>Liên hệ</p>
+                </div>
+                <!-- 3 -->
+                <div class="detail-content-footer">
+                    <h3>CHÍNH SÁCH KHÁCH HÀNG</h3>
+                    <p>Chính sách khách hàng thân thiết</p>
+                    <p>Chính sách đổi trả</p>
+                    <p>Chính sách bảo hành</p>
+                    <p>Chính sách bảo mật</p>
+                    <p>Câu hỏi thường gặp</p>
+                </div>
+                <!-- 4 -->
+                <div class="detail-content-footer">
+                    <h3>Liên hệ</h3>
+                    <p>Phone: (+84) 799 622 333</p>
+                    <p>Fax: (+84) 555 0100</p>
+                    <p>F15 tầng 1 AEON Mall Tân Phú, 30 Bờ Bao Tân Thắng, Phường Sơn Kỳ, TP Hồ Chí Minh</p>
+                </div>
+
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="wrapper-footer2">
+            <div class="logo-footer">
+                <img src="../img/./logoOnly.jpg">
+                <span>NOAT Store</span>
+            </div>
+            <div class="license">
+                <p>2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/DetailProduct.js"></script>
+</body>
+
+</html>
